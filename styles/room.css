@@ -356,6 +356,7 @@
 #exit-btn {
   padding: 23px 50px;
   border: none;
+  background-color: #FF5050;
 
   position: fixed;
   bottom: 1rem;
