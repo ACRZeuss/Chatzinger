@@ -348,7 +348,19 @@
   position: fixed;
   bottom: 1rem;
   border-radius: 8px;
-  left:50%;
+  left:45%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#exit-btn {
+  padding: 23px 50px;
+  border: none;
+
+  position: fixed;
+  bottom: 1rem;
+  border-radius: 8px;
+  left:55%;
   transform: translateX(-50%);
   cursor: pointer;
 }
