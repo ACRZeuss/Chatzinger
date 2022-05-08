@@ -91,6 +91,18 @@
     </main>
     
 </body>
+
+<script>
+    var joinRoom = document.getElementById("join-btn", "exit-btn");
+        joinRoom.addEventListener("click", ()=>{
+            document.getElementById("exit-btn").style.display = "none";
+        })
+    var leaveRoom = document.getElementById("leave-btn");
+        leaveRoom.addEventListener("click", ()=>{
+            document.getElementById("exit-btn").style.display = "block";
+        })
+</script>
+
 <script type="text/javascript" src="../js/AgoraRTC_N-4.11.0.js"></script>
 <script type="text/javascript" src="../js/agora-rtm-sdk-1.4.4.js"></script>
 <script type="text/javascript" src="../js/room.js"></script>
